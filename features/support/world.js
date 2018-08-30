@@ -8,7 +8,7 @@ const selectionPage = require('../../page-objects/selection.po');
 
 const launchConfig = {
         dumpio: true,
-        headless: false,
+        headless: true,
         slowMo: 100,
         args: ['--disable-dev-shm-usage', '--start-fullscreen'],
       };
