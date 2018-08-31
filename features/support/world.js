@@ -10,7 +10,7 @@ const launchConfig = {
         dumpio: true,
         headless: true,
         slowMo: 100,
-        args: ['--disable-dev-shm-usage', '--start-fullscreen'],
+        args: ['--disable-dev-shm-usage', '--no-sandbox'],
       };
 
 const elementIsVisible = {visible: true};
