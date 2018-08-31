@@ -1,0 +1,40 @@
+Small comment: The provided acceptance critaria was not developed into a proper scenario in the "3 amigos" meeting
+    so the Given / When / Then is my interpretation. A more detail acceptance criteria with what is being expected when the user does not provide his name should be specified.
+
+_____________________________________________
+Bug id: 01
+
+Description: A user is still able to adopt an animal even if he doesn't provide his name
+
+Feature: animal adoption
+
+Steps to reproduce: Run the scenario number 4 to guide the developt.
+        Given I navigate to animal adoption home page
+        When I don't provide my name 
+        And I press continue button
+        Then I should be still located on home page
+        And an error message should be displayed providing the proper feedback to the user
+
+        Expected result: 
+        It should keep the user on the home page and display and error message that the name is mandatory. 
+        This part is a suggestion from my side, we can involve the project owner and see how to properly handle this acceptance criteria
+        
+        Actual result: 
+        The user is being navigated to the second page - animal selection.
+        
+
+        Link to application: http://www.thetestroom.com/jswebapp/
+
+Software version: <Unknown> - no info about software version. Live version on date: 30.08.2018
+
+Failed test case: scenario 04
+
+Severity: medium
+
+Priority: medium
+
+Reproducible: yes
+
+Reported by: <ReporterName>
+
+Reported on: <Date>
