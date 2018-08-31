@@ -62,3 +62,6 @@ apt-get install -yq fontconfig fonts-liberation fonts-ipafont-gothic fonts-wqy-z
 ```
 
 Of course this is just a patch for the demo. If would really use this in production I will create another Dockerfile from Jenkins run there the above mentioned missing libs. After that I will build the new image and use it on my system.
+
+## Bug report
+The requested bug report can be found at the [bugticket.txt](./bugticket.txt) file.
